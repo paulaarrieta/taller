@@ -1,0 +1,108 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos generales */
+        header, nav, main, article, aside, section, footer {
+            border: 2px solid #000; /* Añade un borde negro a cada sección */
+            padding: 10px; /* Espaciado interno */
+            margin-bottom: 10px; /* Espaciado entre las secciones */
+        }
+        header {
+            background-color: #333;
+            padding: 5px; /* Ajustar el padding para hacer la barra más delgada */
+            color: white;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        article {
+            flex: 2;
+            margin-right: 20px;
+        }
+        article img {
+            width: 100%;
+            height: auto;
+        }
+        article h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        article p {
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        aside {
+            flex: 1;
+        }
+        aside h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        aside ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        section {
+            padding: 20px;
+            border: 2px solid #000; /* Añadir borde para encerrar el título y las columnas */
+        }
+        section h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000; /* Línea separadora debajo del título */
+            padding-bottom: 10px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .columns article {
+            width: 32%;
+            text-align: center;
+            border: 2px solid #000; /* Bordes alrededor de las columnas internas */
+            padding: 10px;
+        }
+        .columns article img {
+            width: 100%;
+            height: auto;
+        }
+        .columns article p {
+            margin: 10px 0;
+        }
+        .columns article a {
+            text-decoration: none;
+            color: #333;
+        }
+        .columns article a:hover {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer nav ul {
+            justify-content: center;
+        }
+   
